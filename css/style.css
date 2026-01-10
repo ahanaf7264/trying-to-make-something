@@ -2,5 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: antiquewhite;
 }
+
+header .head .head-elements .elements{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    }
+
+    header .head .head-elements .elements .logo img{
+        width: 139px;
+        margin:16px 1341px 16px 120px ;
+    }
+
+    header .head .head-elements .elements .ami{
+        display: flex;
+        list-style: none;
+        vertical-align: space-between ;
+    }
