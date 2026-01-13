@@ -4,19 +4,264 @@
     box-sizing: border-box;
 }
 
-header .head .head-elements .elements{
+
+
+header nav.elements{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px;
+}
+
+header nav div.image img{
+   width: auto;
+   margin: auto;
+}
+
+header div.links ul {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
+    list-style: none;
+}
+
+header div.links ul li a{
+    text-decoration: none;
+    color: rgb(203, 159, 28);
+    font-weight: bold;
+}
+
+header div.btn button{
+    background-color: tomato;
+    font-size: bold;
+    border-radius: 8px;
+    width: 160px;
+    padding: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+header div.btn button:hover{
+    background-color: rgb(115, 161, 192);
+}
+
+
+
+/* main */
+
+main div.sami{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    background-image: url('../assets/hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main div.bttn button{
+    background-color: tomato;
+    font-size: bold;
+    border-radius: 8px;
+    width: 190px;
+    padding: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main div.bttn button:hover{
+    background-color: rgb(115, 161, 192);
+}
+
+main div.para-1 h1:first-child{
+    font: bold;
+    color: white;
+}
+main div.para-1 h1:last-of-type{
+    color:green ;
+}
+
+main div.para-1 p{
+    color: white;
+    margin: 30px auto 25px auto;
+}
+
+
+
+/* main-2 */
+
+main div.prionta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}   
+
+main div.prionta h2{
+   color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+main div.prionta h5{
+    color: grey;
+    margin-bottom: 15px;
+}
+
+
+
+main div.priom{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 50px 20px 40px 20px;
+}
+
+
+main div.priom div.card{
+    height: 180px;
+    width: 300px;
+    padding: 5px 5px 5px 5px;
+    border: 1px  grey;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 10px lightgrey;
+    margin-bottom: 30px;
+}
+
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background: #ff5b5b;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto 15px;}
+
+
+  main div.priom div.card header{
+    font-weight: bold;
+    margin-bottom: 10px;}
+
+    main div.priom div.card p{
+        color: grey;
+        font-size: 14px;
     }
 
-    header .head .head-elements .elements .logo img{
-        width: 139px;
-        margin:16px 1341px 16px 120px ;
-    }
 
-    header .head .head-elements .elements .ami{
+    main div.nuha{
         display: flex;
-        list-style: none;
-        vertical-align: space-between ;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
     }
+
+
+    .nuha-left img {
+  max-width: 420px;
+}
+
+.nuha-right {
+  max-width: 520px;
+}
+  .nuha-right .tag {
+    color:  green;
+  }
+
+
+.nuha-right h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(6, 11, 59);
+  }
+
+
+  .nuha-right p {
+    color: grey;
+    margin-bottom: 20px;
+  }
+
+
+  .nuha-right ol li {
+    margin-bottom: 10px;
+    color: rgb(49, 15, 15);
+    font-size: bold;
+  }
+
+
+  .mun {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 110px;
+    width: 100%; 
+    
+  }
+
+
+  .mun-1{
+    background-color: rgb(234, 235, 237);
+     width: 1300px;
+     height: 300px;
+  }
+
+.mun-1 h1{
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: rgb(6, 11, 59);
+    margin-top: 40px;
+}
+
+.mun-1 p{
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.mun-2 p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.ahanaf{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px;
+    background-color: oldlace;
+}
+
+.my-foot-image{
+    width: 350px;
+    margin: 120px auto 100px 120px;
+}
+
+.foot-link ul {
+    display: flex;
+    gap: 20px;
+    margin: 120px 50px 100px auto;
+}
+
+.foot-link a{
+    text-decoration: none;
+}
+
+.nayan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
